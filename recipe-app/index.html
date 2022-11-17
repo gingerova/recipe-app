@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarifler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+</head>
+    <body>
+        <div class="mobile-container"> 
+            <header>
+                <input type="text" id="search-term">
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+        <div class="fav-container"> 
+            <h3>What should i eat today?</h3>
+            <h5>Your Favorites</h5>
+            <ul class="fav-meals" id="fav-meals">
+            </ul>
+        </div>
+         <div class="meals" id="meals">
+        </div>
+    </div>
+    <div class="popup-container hidden" id="meal-popup">
+        <div class="popup">
+            <button id="close-popup" class="close-popup"><i class="fas fa-times"></i></button>
+            <div>
+                <div class="meal-info" id="meal-info">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
